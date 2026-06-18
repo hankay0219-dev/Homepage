@@ -143,6 +143,753 @@
         }
 
 
+        .Seach_Sports_BG input {
+           
+            width:207px;
+            height:24px;
+            border-radius:7px;
+            border: none;
+            outline: none;
+            background-color: #1b1b1b;
+            box-shadow: 0 0 2px 3px #00000080;
+           
+            position:absolute;
+            top: 340px;
+            left: 30px;
+
+
+            font-family: "Gmarket Sans TTF", sans-serif;
+
+            font-weight: light;
+            font-size: 12px;
+            line-height: 60px;
+            letter-spacing: 0%;
+            transform: scaleX(0.95);
+            color: #ffffff;
+            padding-left: 12px;            
+
+         }
+
+         .Seach_Sports_BG input::placeholder {
+
+            font-family: "Gmarket Sans TTF", sans-serif;
+
+            font-weight: light;
+            font-size: 11px;
+            line-height: 60px;
+            letter-spacing: 0%;
+            transform: scaleX(0.95);
+
+            position:absolute;
+            top:6px;
+            left:50%;
+            transform: translateX(-50%);
+
+            color: #787878;
+
+         }
+
+         .Seach_Sports_BG button {
+
+            background: transparent;
+            border: none;
+            padding: 0;
+            margin-left: 5px;
+            cursor: pointer;
+
+            position:absolute;
+            top: 329px;
+            left: 235px;
+
+         }
+
+         .Seach_Sports_BG button img {
+
+            width:48px;
+            height:48px;
+
+            display: block;
+
+         }
+
+
+         .Sorting_Sports_Group {
+            display:flex;
+            justify-content:flex-end;
+            margin: 2px;
+            gap:1px;
+         }
+
+
+         .Sorting_Sports_BG a{
+            position:relative;
+            display:block;                      
+            top:142px;
+            width: 99px;
+            height:39px;
+      
+         }
+
+
+         .Sorting_Sports_BG{
+            position:relative;   
+                            
+            width: 99px;
+            height:39px;
+      
+         }
+
+         .Sorting_Sports_BG_On{
+            
+            position:absolute;          
+            
+            width: 99px;
+            height:39px;
+            border-radius:5px;
+
+            background:
+            linear-gradient(
+            180deg,
+            #30a4e6,
+            #00699e,
+            #003b4f
+            );
+
+            opacity: 0;
+            transition: 0.4s;
+            pointer-events: none;
+
+         }
+
+         .Sorting_Sports_BG_Off{
+            
+            position:absolute;
+                     
+            width: 99px;
+            height:39px;
+            border-radius:5px;
+
+            background:
+            linear-gradient(
+            180deg,
+            #464646 0%,
+            #242424 30%,
+            #181818 45%,
+            #0f0f0f 60%,
+            #1d1d1d 100%
+            );
+            background-size: 100% 110%;
+            background-repeat: no-repeat;
+
+            cursor:pointer;
+
+            transition: 0.4s;
+
+         }
+
+         .Sorting_Sports_BG:hover .Sorting_Sports_BG_On {
+            opacity: 1;
+         }
+
+         .Sorting_Sports_BG:hover .Sorting_Sports_BG_Off {
+            opacity: 0;
+         }
+
+         .Sorting_Sports_BG:hover .btn_text5{
+            color: #fee619;
+         }
+
+
+
+         .List_Header_BG{
+            
+            width: 300px;
+            height:45px;
+
+            position:absolute;
+            top:425px;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            border-radius:0px;
+
+            background:
+            linear-gradient(
+            180deg,
+            #30a4e6,
+            #00699e,
+            #003b4f
+            );
+
+            cursor:pointer;
+         }
+
+         .Icon_Sports_List_Header{
+
+            position:absolute;
+            top: 47%;
+            transform:translateY(-50%);
+            left: 5px;
+            pointer-events: none; 
+
+         }
+
+         .List_Header_BG2{
+            
+            width: 300px;
+            height:45px;
+
+            position:absolute;
+            top:672px;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            border-radius:0px;
+
+            background:
+            linear-gradient(
+            180deg,
+            #30a4e6,
+            #00699e,
+            #003b4f
+            );
+
+            cursor:pointer;
+         }
+
+         .Icon_Sports_List_Header2{
+
+            position:absolute;
+            top: 47%;
+            transform:translateY(-50%);
+            left: 5px;
+            pointer-events: none; 
+
+         }
+
+         .List_Header_BG3{
+            
+            width: 300px;
+            height:45px;
+
+            position:absolute;
+            top:1034px;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            border-radius:0px;
+
+            background:
+            linear-gradient(
+            180deg,
+            #30a4e6,
+            #00699e,
+            #003b4f
+            );
+
+            cursor:pointer;
+         }
+
+         .Icon_Sports_List_Header3{
+
+            position:absolute;
+            top: 47%;
+            transform:translateY(-50%);
+            left: 5px;
+            pointer-events: none; 
+
+         }
+
+         .List_Header_text{
+            font-family: "Gmarket Sans TTF", sans-serif;
+
+            font-weight: medium;
+            font-size: 13px;
+            line-height: 60px;
+            letter-spacing: 0%;
+            transform: scaleX(0.95);
+
+            color: #ffffff;
+
+            text-shadow:
+            0.25px 0 0 currentColor,
+            -0.25px 0 0 currentColor,
+              0px 1px 0px rgba(0,0,0,1),
+              0px 1px 1px rgba(0,0,0,1),
+              0px 1px 3px rgba(0,0,0,1);
+                   
+            white-space: nowrap;
+            text-align: center;
+
+            position: absolute;
+            top: 51%;
+            transform:translateY(-50%);
+            left: 60px;
+            pointer-events: none; 
+        }
+
+
+        .List_Sports_BG_Group {
+
+            display:flex;
+            flex-direction:column;
+            justify-content:flex-start;
+            gap:1px;
+
+            position:absolute;
+            top:472px;
+            
+         }
+
+
+         .List_Sports_BG{
+            
+            width: 300px;
+            height:39px;
+
+            position:relative;
+
+            border-radius:0px;
+
+         }
+         
+         .List_Sports_BG_On{
+            
+            width: 300px;
+            height:39px;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            position:absolute;
+
+            border-radius:0px;
+
+            background:
+            linear-gradient(
+            180deg,
+            #0a0a0a 0%,
+            #141414 5%,
+            #191919 20%,
+            #0f0f0f 85%,
+            #050505 100%
+            );
+
+            opacity: 0;
+            transition: 0.4s;
+
+            cursor:pointer;
+         }
+
+         .List_Sports_BG_Off{
+            
+            width: 300px;
+            height:39px;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            position:absolute;
+
+            border-radius:0px;
+
+            background:
+            linear-gradient(
+            180deg,
+            #464646 0%,
+            #323232 5%,
+            #282828 20%,
+            #282828 85%,
+            #0a0a0a 100%
+            );
+            
+
+            transition: 0.4s;
+
+            cursor:pointer;
+         }
+
+         .List_Sports_BG:hover .List_Sports_BG_On {
+            opacity: 1;
+         }
+
+         .List_Sports_BG:hover .List_Sports_BG_Off {
+            opacity: 0;
+         }
+
+         .Icon_Sports_List{
+
+            position:absolute;
+            justify-content:flex-start;
+
+            top: 47%;
+            transform:translateY(-50%);
+            left: 30px;
+            pointer-events: none; 
+
+         }
+
+         .List_Sports_text{
+            font-family: "Gmarket Sans TTF", sans-serif;
+
+            font-weight: medium;
+            font-size: 12px;
+            line-height: 60px;
+            letter-spacing: 0%;
+            transform: scaleX(0.95);
+
+            color: #ffffff;
+
+            white-space: nowrap;
+            text-align: center;
+
+            position:absolute;
+            justify-content:flex-start;
+
+            top: 49%;
+            transform:translateY(-50%);
+            left: 70px;
+            pointer-events: none; 
+        }
+
+
+         .List_Game_BG_Group{
+
+            display:flex;
+            flex-direction:column;
+            justify-content:flex-start;
+            gap:1px;
+
+            position:absolute;
+            top:720px;
+            
+         }
+
+
+         .List_Game_BG{
+            
+            width: 300px;
+            height:62px;
+
+            position:relative;
+
+            border-radius:0px;
+
+         }
+         
+         .List_Game_BG_On{
+            
+            width: 300px;
+            height:62px;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            position:absolute;
+
+            border-radius:0px;
+
+            background:
+            linear-gradient(
+            180deg,
+            #0a0a0a 0%,
+            #141414 5%,
+            #191919 20%,
+            #0f0f0f 85%,
+            #050505 100%
+            );
+
+            opacity: 0;
+            transition: 0.4s;
+
+            cursor:pointer;
+         }
+
+         .List_Game_BG_Off{
+            
+            width: 300px;
+            height:62px;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            position:absolute;
+
+            border-radius:0px;
+
+            background:
+            linear-gradient(
+            180deg,
+            #464646 0%,
+            #323232 5%,
+            #282828 20%,
+            #282828 85%,
+            #0a0a0a 100%
+            );
+            
+
+            transition: 0.4s;
+
+            cursor:pointer;
+         }
+
+         .List_Game_BG:hover .List_Game_BG_On {
+            opacity: 1;
+         }
+
+         .List_Game_BG:hover .List_Game_BG_Off {
+            opacity: 0;
+         }
+
+
+         .Icon_Game_List{
+
+            position:absolute;
+            justify-content:flex-start;
+
+            top: 47%;
+            transform:translateY(-50%);
+            left: 66px;
+            pointer-events: none; 
+
+         }
+
+         .Icon_Game_List2{
+
+            position:absolute;
+            justify-content:flex-start;
+
+            top: 25%;
+            transform:translateY(-50%);
+            left: 122px;
+            pointer-events: none; 
+
+         }
+
+         .Icon_Game_List3{
+
+            position:absolute;
+            justify-content:flex-start;
+
+            top: 68%;
+            transform:translateY(-50%);
+            left: 122px;
+            pointer-events: none; 
+
+         }
+
+         .List_Game_text{
+            font-family: "Gmarket Sans TTF", sans-serif;
+
+            font-weight: medium;
+            font-size: 11px;
+            line-height: 60px;
+            letter-spacing: 0%;
+            transform: scaleX(0.95);
+
+            color: #ffffff;
+
+            white-space: nowrap;
+            text-align: center;
+
+            position:absolute;
+            justify-content:flex-start;
+
+            top: 49%;
+            transform:translateY(-50%);
+            left: 18px;
+            pointer-events: none; 
+         }
+
+         .List_Game_text2{
+            font-family: "Gmarket Sans TTF", sans-serif;
+
+            font-weight: medium;
+            font-size: 11px;
+            line-height: 27px;
+            letter-spacing: 0%;
+            transform: scaleX(0.95);
+
+            color: #ffffff;
+
+            white-space: nowrap;
+            text-align: center;
+
+            position:absolute;
+            justify-content:flex-start;
+
+            top: 49%;
+            transform:translateY(-50%);
+            left: 145px;
+            pointer-events: none; 
+         }
+
+
+         .List_Legue_BG_Group {
+
+            display:flex;
+            flex-direction:column;
+            justify-content:flex-start;
+            gap:1px;
+
+            position:absolute;
+            top:1082px;
+            
+         }
+
+
+         .List_Legue_BG{
+            
+            width: 300px;
+            height:62px;
+
+            position:relative;
+
+            border-radius:0px;
+
+         }
+         
+         .List_Legue_BG_On{
+            
+            width: 300px;
+            height:62px;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            position:absolute;
+
+            border-radius:0px;
+
+            background:
+            linear-gradient(
+            180deg,
+            #0a0a0a 0%,
+            #141414 5%,
+            #191919 20%,
+            #0f0f0f 85%,
+            #050505 100%
+            );
+
+            opacity: 0;
+            transition: 0.4s;
+
+            cursor:pointer;
+         }
+
+         .List_Legue_BG_Off{
+            
+            width: 300px;
+            height:62px;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            position:absolute;
+
+            border-radius:0px;
+
+            background:
+            linear-gradient(
+            180deg,
+            #464646 0%,
+            #323232 5%,
+            #282828 20%,
+            #282828 85%,
+            #0a0a0a 100%
+            );
+            
+
+            transition: 0.4s;
+
+            cursor:pointer;
+         }
+
+         .List_Legue_BG:hover .List_Legue_BG_On {
+            opacity: 1;
+         }
+
+         .List_Legue_BG:hover .List_Legue_BG_Off {
+            opacity: 0;
+         }
+
+
+         .Icon_Legue_List{
+
+            position:absolute;
+            justify-content:flex-start;
+
+            top: 47%;
+            left: 87px;
+            transform:translate(-50%, -50%);
+            pointer-events: none; 
+
+         }
+
+         .List_Legue_text{
+            font-family: "Gmarket Sans TTF", sans-serif;
+
+            font-weight: medium;
+            font-size: 11px;
+            line-height: 60px;
+            letter-spacing: 0%;
+            transform: scaleX(0.95);
+
+            color: #ffffff;
+
+            white-space: nowrap;
+            text-align: center;
+
+            position:absolute;
+            justify-content:flex-start;
+
+            top: 49%;
+            transform:translateY(-50%);
+            left: 18px;
+            pointer-events: none; 
+         }
+
+         .List_Legue_text2{
+            font-family: "Gmarket Sans TTF", sans-serif;
+
+            font-weight: medium;
+            font-size: 11px;
+            line-height: 27px;
+            letter-spacing: 0%;
+            transform: scaleX(0.95);
+
+            color: #ffffff;
+
+            white-space: nowrap;
+            text-align: center;
+
+            position:absolute;
+            justify-content:flex-start;
+
+            top: 49%;
+            transform:translateY(-50%);
+            left: 122px;
+            pointer-events: none; 
+         }
+
+
+
+
+
+
+
 
         .menu_btn{
             display: flex;
@@ -319,6 +1066,50 @@
             transform: translate(-50%, -50%) scaleX(0.95);
 
             color: white;
+                   
+            white-space: nowrap;
+            text-align: center;
+
+            pointer-events: none; 
+        }
+
+        .btn_text4{
+
+            position:absolute;
+            top: 35%;
+            left: 50%;
+            
+            font-family: "Gmarket Sans TTF", sans-serif;
+
+            font-weight: medium;
+            font-size: 11px;
+            line-height: 13px;
+            letter-spacing: 0%;
+            transform: translate(-50%, -50%) scaleX(0.95);
+
+            color: white;
+                   
+            white-space: nowrap;
+            text-align: center;
+
+            pointer-events: none; 
+        }
+
+        .btn_text5{
+
+            position:absolute;
+            top: 72%;
+            left: 50%;
+            
+            font-family: "Gmarket Sans TTF", sans-serif;
+
+            font-weight: medium;
+            font-size: 10px;
+            line-height: 13px;
+            letter-spacing: 0%;
+            transform: translate(-50%, -50%) scaleX(0.95);
+
+            color: #646464;
                    
             white-space: nowrap;
             text-align: center;
@@ -1151,11 +1942,240 @@
        </a>
 
     </div>
+
+
+    <div class="Seach_Sports_BG">
+       <input type="text" placeholder="스포츠 검색 (국가/리그명/팀명)">
+       <button>
+         <a href="https://www.naver.com" target="_blank">
+         <img class="Seach_Sports_BG button" src="./Img/Icon_Seach.png">
+         </a>
+      </button>
+    </div>
+
+    <div class="Sorting_Sports_Group">
+      <div class="Sorting_Sports_BG">
+       <a href="https://www.naver.com" target="_blank">
+       <div class="Sorting_Sports_BG_Off"></div>
+       <div class="Sorting_Sports_BG_On"></div>
+       <span class="btn_text4">스포츠</span>
+       <span class="btn_text5">000</span>
+       </a>
+      </div>
+
+      <div class="Sorting_Sports_BG">
+       <a href="https://www.naver.com" target="_blank">
+       <div class="Sorting_Sports_BG_Off"></div>
+       <div class="Sorting_Sports_BG_On"></div>
+       <span class="btn_text4">실시간</span>
+       <span class="btn_text5">000</span>
+       </a>
+      </div>
+
+      <div class="Sorting_Sports_BG">
+       <a href="https://www.naver.com" target="_blank">
+       <div class="Sorting_Sports_BG_Off"></div>
+       <div class="Sorting_Sports_BG_On"></div>
+       <span class="btn_text4">미니게임</span>
+       <span class="btn_text5">000</span>
+       </a>
+      </div>
+    </div>
+
+
+    <div class="List_Header_BG">
+
+      <img class="Icon_Sports_List_Header" src="./Img/Icon_Sports_List_Small_Legue.png">
+      <span class="List_Header_text">인기 스포츠 리스트</span>
+
+    </div>
+
+    <div class="List_Sports_BG_Group">
+
+      <div class="List_Sports_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Sports_BG_Off"></div>
+         <div class="List_Sports_BG_On"></div>
+         </a>
+      <img class="Icon_Sports_List" src="./Img/Icon_Sports_Small_Soccer.png">
+      <span class="List_Sports_text">축구</span>
+      </div>
+
+      <div class="List_Sports_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Sports_BG_Off"></div>
+         <div class="List_Sports_BG_On"></div>
+         </a>
+      <img class="Icon_Sports_List" src="./Img/Icon_Sports_Small_Basketball.png">
+      <span class="List_Sports_text">농구</span>
+      </div>
+
+      <div class="List_Sports_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Sports_BG_Off"></div>
+         <div class="List_Sports_BG_On"></div>
+         </a>
+      <img class="Icon_Sports_List" src="./Img/Icon_Sports_Small_Baseball.png">
+      <span class="List_Sports_text">야구</span>
+      </div>
+
+      <div class="List_Sports_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Sports_BG_Off"></div>
+         <div class="List_Sports_BG_On"></div>
+         </a>
+      <img class="Icon_Sports_List" src="./Img/Icon_Sports_Small_Volleyball.png">
+      <span class="List_Sports_text">배구</span>
+      </div>
+
+      <div class="List_Sports_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Sports_BG_Off"></div>
+         <div class="List_Sports_BG_On"></div>
+         </a>
+      <img class="Icon_Sports_List" src="./Img/Icon_Sports_Small_Hockey.png">
+      <span class="List_Sports_text">아이스 하키</span>
+      </div>
+
+    </div>
+
+    <div class="List_Header_BG2">
+
+      <img class="Icon_Sports_List_Header2" src="./Img/Icon_Sports_List_Small_Game.png">
+      <span class="List_Header_text">인기경기 TOP 5</span>
+
+    </div>
+
+    <div class="List_Game_BG_Group">
+
+      <div class="List_Game_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Game_BG_Off"></div>
+         <div class="List_Game_BG_On"></div>
+         </a>
+      <img class="Icon_Game_List" src="./Img/Icon_Sports_Medium_Soccer.png">
+      <img class="Icon_Game_List2" src="./Img/3426.png">
+      <img class="Icon_Game_List3" src="./Img/1644.png">
+      <span class="List_Game_text">00:00</span>
+      <span class="List_Game_text2">TEAM NAME<br>TEAM NAME</span>
+      </div>
+
+      <div class="List_Game_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Game_BG_Off"></div>
+         <div class="List_Game_BG_On"></div>
+         </a>
+      <img class="Icon_Game_List" src="./Img/Icon_Sports_Medium_Basketball.png">
+      <img class="Icon_Game_List2" src="./Img/3426.png">
+      <img class="Icon_Game_List3" src="./Img/1644.png">
+      <span class="List_Game_text">00:00</span>
+      <span class="List_Game_text2">TEAM NAME<br>TEAM NAME</span>
+      </div>
+
+      <div class="List_Game_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Game_BG_Off"></div>
+         <div class="List_Game_BG_On"></div>
+         </a>
+      <img class="Icon_Game_List" src="./Img/Icon_Sports_Medium_Baseball.png">
+      <img class="Icon_Game_List2" src="./Img/3426.png">
+      <img class="Icon_Game_List3" src="./Img/1644.png">
+      <span class="List_Game_text">00:00</span>
+      <span class="List_Game_text2">TEAM NAME<br>TEAM NAME</span>
+      </div>
+
+      <div class="List_Game_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Game_BG_Off"></div>
+         <div class="List_Game_BG_On"></div>
+         </a>
+      <img class="Icon_Game_List" src="./Img/Icon_Sports_Medium_Volleyball.png">
+      <img class="Icon_Game_List2" src="./Img/3426.png">
+      <img class="Icon_Game_List3" src="./Img/1644.png">
+      <span class="List_Game_text">00:00</span>
+      <span class="List_Game_text2">TEAM NAME<br>TEAM NAME</span>
+      </div>
+
+      <div class="List_Game_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Game_BG_Off"></div>
+         <div class="List_Game_BG_On"></div>
+         </a>
+      <img class="Icon_Game_List" src="./Img/Icon_Sports_Medium_Tennis.png">
+      <img class="Icon_Game_List2" src="./Img/3426.png">
+      <img class="Icon_Game_List3" src="./Img/1644.png">
+      <span class="List_Game_text">00:00</span>
+      <span class="List_Game_text2">TEAM NAME<br>TEAM NAME</span>
+      </div>
+
+    </div>
+
+    <div class="List_Header_BG3">
+
+      <img class="Icon_Sports_List_Header3" src="./Img/Icon_Sports_List_Small_Legue.png">
+      <span class="List_Header_text">인기리그 TOP 5</span>
+
+    </div>
+
+    <div class="List_Legue_BG_Group">
+
+      <div class="List_Legue_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Legue_BG_Off"></div>
+         <div class="List_Legue_BG_On"></div>
+         </a>
+      <img class="Icon_Legue_List" src="./Img/Sports_Top5_League_List_Icon_MLB.png">
+      <span class="List_Legue_text">00:00</span>
+      <span class="List_Legue_text2">TEAM NAME</span>
+      </div>
+
+      <div class="List_Legue_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Legue_BG_Off"></div>
+         <div class="List_Legue_BG_On"></div>
+         </a>
+      <img class="Icon_Legue_List" src="./Img/Sports_Top5_League_List_Icon_KBO.png">
+      <span class="List_Legue_text">00:00</span>
+      <span class="List_Legue_text2">TEAM NAME</span>
+      </div>
+
+      <div class="List_Legue_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Legue_BG_Off"></div>
+         <div class="List_Legue_BG_On"></div>
+         </a>
+      <img class="Icon_Legue_List" src="./Img/Sports_Top5_League_List_Icon_PRE.png">
+      <span class="List_Legue_text">00:00</span>
+      <span class="List_Legue_text2">TEAM NAME</span>
+      </div>
+
+      <div class="List_Legue_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Legue_BG_Off"></div>
+         <div class="List_Legue_BG_On"></div>
+         </a>
+      <img class="Icon_Legue_List" src="./Img/Sports_Top5_League_List_Icon_NBA.png">
+      <span class="List_Legue_text">00:00</span>
+      <span class="List_Legue_text2">TEAM NAME</span>
+      </div>
+
+      <div class="List_Legue_BG">
+         <a href="https://www.naver.com" target="_blank">
+         <div class="List_Legue_BG_Off"></div>
+         <div class="List_Legue_BG_On"></div>
+         </a>
+      <img class="Icon_Legue_List" src="./Img/Sports_Top5_League_List_Icon_NHL.png">
+      <span class="List_Legue_text">00:00</span>
+      <span class="List_Legue_text2">TEAM NAME</span>
+      </div>
+
+    </div>
+
+
+    
          
 
 </div>
-
-
 
 
 
@@ -1232,51 +2252,19 @@
 </div>
 
     
-<div>
+Color : #000000
+Opacity : 100
+Angle : 90
+Distance : 1
+Spread : 15
+Size : 3
 
-    <p>안녕하세요.</p>
-
-    <p>웹 퍼블리싱 공부중입니다.</p>
-
-    <a href="https://www.naver.com">
-        네이버 가기
-    </a>
-
-    <div>나는 박스입니다</div>
-
-    <h2>저는 디자이너입니다</h2>
-    <h3>저는 디자이너입니다</h3>
-
-    <p>웹디자인을 하다가 지금부터 퍼블리싱을 공부중입니다.</p>
-
-
-
-    <h2>좋아하는 것</h2>
-
-    <ul>
-        <li>드럼</li>
-        <li>강아지
-        <li>음악</li>
-        <li>여행</li>
-    </ul>
-
-    <a href="https://www.naver.com">
-        네이버 가기
-    </a>
-
-</div>
-
-
-    
-<div class="menu">
-    
-<div class="item">메뉴1</div>
-
-<div class="item">메뉴2</div>
-
-<div class="item">메뉴3</div>
-</body>
-
-
-</html>
+그림자 코드로 주기 #000000+코드
+- 거의 안 보임	1A
+- 아주 약함	33
+- 연함	4D
+- 중간	80
+- 기본	B3
+- 진함	CC
+- 거의 불투명	E6
 
